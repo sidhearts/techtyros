@@ -1,0 +1,56 @@
+.landing-navbar {
+  background: transparent !important ;
+  font-size: 3vh;
+}
+
+.landing-navbar.active {
+  background:rgb(18, 21, 63) !important;
+  transition: 0.5s ease-in;
+}
+  .brand {
+    width: 30vh;
+  }
+  
+  #basic-navbar-nav .links {
+    color: white;
+  }
+
+  #basic-navbar-nav .links:hover {
+    color: lightgray;
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+  }
+
+  .footer {
+    background-color: rgb(18, 21, 63);
+  }
+
+  .footer-link {
+    color: white;
+    font-size: 3vh;
+  }
+
+  .footer-link:hover {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .home {
+    background-image: url("../images/bg.png");
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #F1F1F2;
+  }
+
+  .hometext {
+    background-color: #F1F1F2;
+    background-image: url("../images/homebg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .quality {
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+  }
